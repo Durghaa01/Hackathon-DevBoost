@@ -55,6 +55,7 @@ Backend: FastAPI (Python)
 AI Service (Simulated): LM Studio (local LLM)
 APIs/Tools: GitHub API, Postman for testing
 Database: SQLite (for demo metadata storage)
+AI Model: liquid/lfm2-1.2b
 
 ⚡ Setup Instructions
 
