@@ -7,7 +7,9 @@ DevBoost – Smart Workflow & Documentation Assistant for Developers
 👥 Team Members and Information
 
 Durghaashini S Ragunathan (Team Lead)
+
 Eng Jia Xuan
+
 Terence Ling Chee Yew
 
 \*\* Students From UCSI University
@@ -25,6 +27,7 @@ These challenges slow down development, reduce collaboration efficiency, and low
 💡 Solution
 
 DevBoost addresses these issues by:
+
 📂 Centralizing Workflows → integrates GitHub repo commits, issues, and collaboration in one place.
 
 📝 Auto-Generated Documentation → extracts clean, structured docs directly from code and comments.
