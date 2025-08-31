@@ -25,7 +25,7 @@ Documentation is often outdated or missing, causing knowledge gaps.
 Writing unit tests is time-consuming and often neglected.
 These challenges slow down development, reduce collaboration efficiency, and lower overall software quality.
 
-💡 Solution
+💡 Solution Summary
 
 DevBoost addresses these issues by:
 
