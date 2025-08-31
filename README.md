@@ -38,7 +38,7 @@ DevBoost addresses these issues by:
 
 This reduces context switching, ensures documentation is always up to date, and encourages better testing practices — all within a single platform.
 
-📌 Project Summary
+📌 Project Description
 
 Fast-paced development teams often face scattered workflows, missing documentation, and poor test coverage. These inefficiencies slow down delivery, create knowledge gaps, and increase the risk of bugs.
 DevBoost is a web app that centralizes developer workflows, connects directly with GitHub, and uses AI (simulated for demo) to auto-generate both documentation and unit tests. By combining repo insights, instant docs, and test generation into one platform, DevBoost boosts productivity, improves collaboration, and ensures higher code quality.
