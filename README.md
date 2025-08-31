@@ -1,12 +1,92 @@
-# React + Vite
+🚀 DevBoost
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🏷 Title
 
-Currently, two official plugins are available:
+DevBoost – Smart Workflow & Documentation Assistant for Developers
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👥 Team Members and Information
 
-## Expanding the ESLint configuration
+Durghaashini S Ragunathan (Team Lead)
+Eng Jia Xuan
+Terence Ling Chee Yew
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+\*\* Students From UCSI University
+
+❗ Problem Statement
+
+Enhancing Developer Productivity & Code Management
+
+Modern software teams face fragmented workflows:
+Developers constantly switch between repos, task managers, and documentation tools.
+Documentation is often outdated or missing, causing knowledge gaps.
+Writing unit tests is time-consuming and often neglected.
+These challenges slow down development, reduce collaboration efficiency, and lower overall software quality.
+
+💡 Solution
+
+DevBoost addresses these issues by:
+📂 Centralizing Workflows → integrates GitHub repo commits, issues, and collaboration in one place.
+
+📝 Auto-Generated Documentation → extracts clean, structured docs directly from code and comments.
+
+🧪 AI Test Generator (Simulated) → generates test cases for functions/user stories using a local AI model.
+
+📊 Lightweight Insights Dashboard → tracks history of generated docs and tests for continuous improvement.
+
+This reduces context switching, ensures documentation is always up to date, and encourages better testing practices — all within a single platform.
+
+📌 Project Summary
+
+Fast-paced development teams often face scattered workflows, missing documentation, and poor test coverage. These inefficiencies slow down delivery, create knowledge gaps, and increase the risk of bugs.
+DevBoost is a web app that centralizes developer workflows, connects directly with GitHub, and uses AI (simulated for demo) to auto-generate both documentation and unit tests. By combining repo insights, instant docs, and test generation into one platform, DevBoost boosts productivity, improves collaboration, and ensures higher code quality.
+
+⚠️ Note
+
+This project was developed as part of a hackathon. It is a functional prototype showcasing the core idea and workflows. For real-world, production-level usage, it will need further enhancements in scalability, security, and deployment.
+
+🛠 Tech Stack
+
+Frontend: React.js (Next.js)
+Backend: FastAPI (Python)
+AI Service (Simulated): LM Studio (local LLM)
+APIs/Tools: GitHub API, Postman for testing
+Database: SQLite (for demo metadata storage)
+
+⚡ Setup Instructions
+
+Prerequisites
+
+- Node.js & npm
+- Python 3.10+
+- LM Studio installed & running locally
+
+Run the Services
+
+1. Start LM Studio
+
+- Run model at 127.0.0.1:1234
+
+2. Backend (FastAPI)
+
+- cd backend
+- uvicorn main:app --reload --port 8000
+- Runs at 127.0.0.1:8000
+
+3. Frontend (React/Next.js)
+
+- cd frontend
+- npm install
+- npm run dev
+- Runs at 127.0.0.1:3000
+
+4. Open the browser at http://localhost:3000 🎉
+
+💡 Reflections & Learnings
+
+Centralizing tools can drastically reduce context-switching overhead for developers.
+
+AI-powered documentation & test generation, even in a simulated demo, showcased strong potential to save engineering hours.
+
+Integration with existing dev tools (GitHub API, task trackers) is crucial for adoption.
+
+Hackathon takeaway: A strong problem-solution fit is often more impactful than perfect code.
